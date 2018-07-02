@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context="com.example.app_pro.duan.com.duan.activity.CheckinActivity">
+    <TextView
+        android:textStyle="bold"
+        android:textColor="#6666ff"
+        android:text="WHERE YOU HAVE CHECKED"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ListView
+        android:layout_marginTop="5dp"
+        android:divider="#5580ff"
+        android:dividerHeight="1dp"
+        android:id="@+id/listViewCheckin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+</LinearLayout>

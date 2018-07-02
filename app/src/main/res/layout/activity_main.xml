@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".com.duan.database.MainActivity">
+<TextView
+    android:layout_width="match_parent"
+    android:text="User List"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:textSize="40sp"
+    android:textColor="#0e3eea"
+    android:layout_height="wrap_content" />
+    <ListView
+        android:layout_marginTop="5dp"
+        android:divider="#f24949"
+        android:dividerHeight="2dp"
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+</LinearLayout>

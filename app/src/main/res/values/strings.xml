@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyMaps</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps_save_checkin">Map</string>
+    <string name="title_activity_checkin_map">Map</string>
+    <string name="title_activity_checkin_maps_update">Map</string>
+</resources>
